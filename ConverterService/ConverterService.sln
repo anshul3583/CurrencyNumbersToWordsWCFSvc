@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ConverterService", ".", "{C902EB88-A328-43F9-877B-40D4493E20FA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55583"
+		Debug.AspNetCompiler.PhysicalPath = "..\ConverterService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55583\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55583"
+		Release.AspNetCompiler.PhysicalPath = "..\ConverterService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55583\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55583"
+		SlnRelativePath = "..\ConverterService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesConverterService", "..\UnitTesConverterService\UnitTesConverterService.csproj", "{B4A29593-1923-47FF-9348-127529EDB54E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C902EB88-A328-43F9-877B-40D4493E20FA} = {C902EB88-A328-43F9-877B-40D4493E20FA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C902EB88-A328-43F9-877B-40D4493E20FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C902EB88-A328-43F9-877B-40D4493E20FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C902EB88-A328-43F9-877B-40D4493E20FA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C902EB88-A328-43F9-877B-40D4493E20FA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B4A29593-1923-47FF-9348-127529EDB54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A29593-1923-47FF-9348-127529EDB54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A29593-1923-47FF-9348-127529EDB54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A29593-1923-47FF-9348-127529EDB54E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19EC52DE-4A69-4C8A-9D90-7F2C2184D746}
+	EndGlobalSection
+EndGlobal
